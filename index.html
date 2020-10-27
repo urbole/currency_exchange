@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Currency exchange</title>
+	<link rel="stylesheet" href="currency_exchange.css">
+</head>
+<body>
+<div class="currency-exchange">
+	<h3 class="header">КУРС ВАЛЮТ</h3>
+	<table id="currency">
+		<tr>
+			<td></td>
+			<td>Курс<br>покупки</td>
+			<td>Курс<br>продажи</td>
+			<td colspan="2">Калькуляция<br>продажи</td>
+			<td colspan="2">Калькуляция<br>покупки</td>
+		</tr>
+		<tr>
+			<td>USD</td>
+			<td id="usdbuy"></td>
+			<td id="usdsale"></td>
+			<td><input id="sumbuyusd" type="text" oninput="buyUsd();"></td>
+			<td id="resultbuyusd"></td>
+			<td><input id="sumsaleusd" type="text" oninput="saleUsd();"></td>
+			<td id="resultsaleusd"></td>
+		</tr>
+		<tr>
+			<td>EURO</td>
+			<td id="eurobuy"></td>
+			<td id="eurosale"></td>
+			<td><input id="sumbuyeuro" type="text" oninput="buyEuro();"></td>
+			<td id="resultbuyeuro"></td>
+			<td><input id="sumsaleeuro" type="text" oninput="saleEuro();"></td>
+			<td id="resultsaleeuro"></td>
+		</tr>
+		<tr>
+			<td>PLN</td>
+			<td id="plnbuy"></td>
+			<td id="plnsale"></td>
+			<td><input id="sumebaypln" type="text" oninput="buyPln();"></td>
+			<td id="resultbuypln"></td>
+			<td><input id="sumsalepln" type="text" oninput="salePln();"></td>
+			<td id="resultsalepln"></td>
+		</tr>
+	</table>
+</div>
+
+
+<script src="currency_exchange.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body,
+#sumbuyeuro,
+#sumsaleeuro {
+  background: lightslategray;
+}
+
+div.currency-exchange {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#currency {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  /*border: 1px solid black;*/
+  text-align: center;
+  min-width: 50px;
+  padding: 5px;
+}
+
+input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+  outline: none;
+  border: 0.5px solid darkgray;
+  cursor: pointer;
+}
+
+span {
+  font-size: 10px;
+}
+
+tr:nth-child(2n) {
+  background: #808fa0;
+}
+
+#sumbuyusd,
+#sumsaleusd,
+#sumebaypln,
+#sumsalepln {
+  background: #808fa0;
+}
